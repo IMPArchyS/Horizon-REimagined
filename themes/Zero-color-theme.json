@@ -1,10 +1,97 @@
 {
 	"name": "Zero",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		/// Base 
+		"focusBorder": "#181a1f",
+		"foreground": "#c8d2e6",
+		"disabledForeground": "#181a1f",
+		"widget.border": "#ff000000",
+		"selection.background": "#25282f",
+		"descriptionForeground": "#7889ae",
+		"errorForeground": "#e67e77",
+		"icon.foreground": "#c8d2e6",
+
+		/// Window Border
+		"window.activeBorder": "#181a1f",
+		"window.inactiveBorder": "#181a1f",
+
+		/// Text 
+		// "textBlockQuote.background": "#1a1d24",
+		// "textBlockQuote.border": "#181a1f",
+		// "textCodeBlock.background": "#1a1d24",
+
+		/// Action
+		"toolbar.hoverBackground": "#1c2027",
+		"toolbar.hoverOutline": "#1c2027",
+		"toolbar.activeBackground": "#1f2329",
+		
+		/// Button
+		"button.background": "#1c2027",
+		"checkbox.background": "#1c2027",
+		"checkbox.selectBackground": "#1f2329",
+		
+		/// dropdown
+		"dropdown.background": "#181a1f",
+		"dropdown.border": "#181a1f",
+		"dropdown.foreground": "#c8d2e6",
+		"dropdown.listBackground": "#181a1f",
+		//"dropdown.listBorder": "#181a1f",
+
+		/// Input
+		"input.background": "#1c2027",
+		"input.border": "#1c2027",
+		"input.foreground": "#c8d2e6",
+		"input.placeholderForeground": "#a4adc0",
+
+		/// scrollbar
+		"scrollbarSlider.background": "#1f2329",
+		"scrollbarSlider.hoverBackground": "#1f2329",
+		"scrollbarSlider.activeBackground": "#1f2329",
+
+		/// Badge
+		"badge.background": "#1c2027",
+		"badge.foreground": "#c8d2e6",
+
+		/// Lists and trees
+
+		/// Activity Bar
+		"activityBar.background": "#181a1f",
+		"activityBarBadge.background": "#6dd9ff",
+
+		/// profiles
+		"profileBadge.background": "#1c2027",
+		"profileBadge.foreground": "#c8d2e6",
+
+		/// SideBar Settings
+		// bg
+		"sideBar.background": "#181a1f",
+		"sideBarSectionHeader.background": "#181a1f",
+		"sideBar.dropBackground": "#22252cb0",
+		// fg
+		"sideBar.foreground": "#c8d2e6",
+		"sideBarSectionHeader.foreground": "#c8d2e6",
+		"sideBarTitle.foreground": "#bbbbbb",
+
+		/// Minimap 
+
+		/// Editor Groups & Tabs
+		"editorGroupHeader.tabsBackground": "#181a1f",
+
+		/// Editor
+		"editor.background": "#1a1d24",
+		"editor.foreground": "#c8d2e6",
+
+		/// Title Bar
+		"titleBar.activeBackground": "#181a1f",
+		"titleBar.inactiveBackground": "#181a1f",
+
+		/// Status Bar
+		"statusBar.background":"#181a1f",
+		"statusBar.foreground":"#c8d2e6",
+
+		/// Integrated Terminal 
+		"terminal.background": "#181a1f",
+		"terminal.foreground": "#c8d2e6",
 	},
 	"tokenColors": [
 		{
