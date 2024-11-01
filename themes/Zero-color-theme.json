@@ -11,6 +11,49 @@
 		"errorForeground": "#e67e77",
 		"icon.foreground": "#c8d2e6",
 
+		// new stuff
+		"editorWidget.background": "#181a1f",
+		"debugToolBar.background": "#1a1d24",
+		"list.inactiveSelectionBackground": "#1c2027",
+		"list.hoverBackground": "#1f2329",
+		"list.focusBackground": "#1f2329",
+		"activityBar.activeBackground": "#1a1d24",
+		"menu.selectionBackground": "#1c2027",
+		"list.activeSelectionBackground": "#1c2027",
+		"editorLineNumber.foreground": "#56678a",
+		"editorLineNumber.activeForeground": "#a4adc0",
+		"editorCursor.foreground": "#7889ae",
+		"editor.selectionBackground": "#374668cc",
+		"editor.inactiveSelectionBackground": "#3746689f",
+
+		"editor.selectionHighlightBackground": "#1f2329e3",
+		"editor.selectionHighlightBorder": "#374668",
+
+		"editor.wordHighlightStrongBackground": "#1f2329e3",
+		"editor.wordHighlightStrongBorder": "#374668",
+
+		"editor.wordHighlightBackground": "#1f2329e3",
+		"editor.wordHighlightTextBorder": "#374668",
+
+		"editorWarning.foreground": "#c09c2d",
+		"editorError.foreground": "#e28458",
+		"editorMarkerNavigation.background": "#374668cc",
+
+		"editorHoverWidget.background": "#1c2027",
+		"editorHoverWidget.border": "#1c2027",
+		"editorWidget.foreground": "#a4adc0",
+		"editorCodeLens.foreground": "#374668",
+		"editorGutter.addedBackground": "#85b055",
+		"editorGutter.modifiedBackground": "#3aace5",
+		"editorGutter.deletedBackground": "#e67e77",
+		"editorInfo.foreground": "#5b74ab",
+
+		"editorBracketMatch.border": "#374668",
+		"editorBracketMatch.background": "#1f2329e3",
+		"editor.foldBackground": "#1f232983",
+
+
+
 		/// Window Border
 		"window.activeBorder": "#181a1f",
 		"window.inactiveBorder": "#181a1f",
@@ -75,6 +118,8 @@
 		/// Minimap 
 
 		/// Editor Groups & Tabs
+		"tab.inactiveBackground": "#181a1f",
+		"tab.border": "#181a1f",
 		"editorGroupHeader.tabsBackground": "#181a1f",
 
 		/// Editor
@@ -102,7 +147,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#56678a"
 			}
 		},
 		{
@@ -112,7 +157,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#e28458"
 			}
 		},
 		{
@@ -121,7 +166,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#c8d2e6"
 			}
 		},
 		{
@@ -131,7 +176,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#a15e73"
 			}
 		},
 		{
@@ -142,7 +187,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#397ea3"
 			}
 		},
 		{
