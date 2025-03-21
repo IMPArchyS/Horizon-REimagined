@@ -1,10 +1,13 @@
 {
-  "name": "zero-vscode-port",
-  "displayName": "Zero VSCode port",
-  "description": "Port of the VSTheme Zero by @Agitoreiken",
-  "version": "0.0.1",
+  "name": "horizon-reimagined",
+  "displayName": "Horizon Reimagined",
+  "description": "Dark theme based on Horizon, adjusted highlighting by @ArchyS",
+  "version": "1.0.1",
+  "author": "ArchyS",
+  "license": "MIT",
+  "icon": "logo.png",
   "engines": {
-    "vscode": "^1.89.0"
+    "vscode": "^1.26.0"
   },
   "categories": [
     "Themes"
@@ -12,9 +15,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Zero",
+        "label": "HorizonRE-italic",
         "uiTheme": "vs-dark",
-        "path": "./themes/Zero-color-theme.json"
+        "path": "./themes/horizonRE-italic.json"
       }
     ]
   }
