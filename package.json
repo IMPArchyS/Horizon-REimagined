@@ -6,19 +6,58 @@
   "author": "ArchyS",
   "license": "MIT",
   "icon": "logo.png",
+  "publisher": "archyS",
   "engines": {
     "vscode": "^1.26.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "horizon",
+    "warm"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "HorizonRE-italic",
+        "label": "Horizon REimagined italic",
         "uiTheme": "vs-dark",
         "path": "./themes/horizonRE-italic.json"
+      },
+      {
+        "label": "Horizon REimagined",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizonRE.json"
+      },
+      {
+        "label": "Horizon REimagined Bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizonRE-bold.json"
+      },
+      {
+        "label": "Horizon REimagined Bright",
+        "uiTheme": "vs",
+        "path": "./themes/horizonRE-bright.json"
+      },
+      {
+        "label": "Horizon REimagined Bright Italic",
+        "uiTheme": "vs",
+        "path": "./themes/horizonRE-bright-italic.json"
+      },
+      {
+        "label": "Horizon REimagined Bright Bold",
+        "uiTheme": "vs",
+        "path": "./themes/horizonRE-bright-bold.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IMPArchyS/Horizon-REimagined"
+  },
+  "bugs": {
+    "url": "https://github.com/IMPArchyS/Horizon-REimagined/issues"
   }
 }
