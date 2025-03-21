@@ -274,6 +274,44 @@
     {
       "scope": "punctuation.definition.list",
       "settings": { "foreground": "#DC3318" }
+    },
+
+
+
+
+
+
+    {
+      "scope": ["string.quoted", "string.template"],
+      "settings": { "foreground": "#5AAA87" }
+    },
+    {
+      "scope": ["entity.name.variable", "variable"],
+      "settings": { "foreground": "#E95678E6" }
+    },
+    { 
+      "scope": "variable.parameter", 
+      "settings": { "foreground": "#52D1E2" ,"fontStyle": "italic" } 
+    },
+    {
+      "scope": "variable.struct",
+      "settings": { "foreground": "#AAA160" }
+    },
+    {
+      "scope": "variable.other.readwrite",
+      "settings": { "foreground": "#E05F75" }
+    },
+	  { 
+      "scope": "variable.other.property",
+      "settings": { "foreground": "#ff714d" }
+    },
+    {
+      "scope": "variable.interface",
+      "settings": { "foreground": "#FFAE00" }
+    },
+    {
+      "scope": "string.quoted.docstring",
+      "settings": { "foreground": "#719e95" }
     }
   ]
 }
